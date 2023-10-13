@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wiki API</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header id="logo">
+      <img src="./ressources/wiki-logo.png" alt="logo wikipedia" srcset="" />
+    </header>
+
+    <form id="search">
+      <h1>Recherche <span>Wikipedia</span></h1>
+      <input
+        type="search"
+        name="searchInput"
+        id="searchInput"
+        placeholder="Tapez un mot et pressez entrer..."
+      />
+    </form>
+
+    <div class="spinner">
+      <div class="spinner2 hidden">
+        <div class="double-bounce1"></div>
+        <div class="double-bounce2"></div>
+      </div>
+    </div>
+
+    <section id="results"></section>
+
+    <script src="app.js"></script>
+  </body>
+</html>
